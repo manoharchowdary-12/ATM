@@ -1,4 +1,4 @@
-package ATM;
+
 
 public interface AtmInterface {
    public void viewBalance();

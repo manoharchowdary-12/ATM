@@ -1,4 +1,4 @@
-package ATM;
+
 
 public class Atm {
     private double balance;

@@ -1,4 +1,3 @@
-package ATM;
 
 import java.util.Scanner;
 
@@ -7,7 +6,7 @@ public class UserInterface {
     private static int exitStatus;
 
     public static void main(String[] args) {
-        AtmOperation atmOps = new AtmOperationImp();
+        AtmOperation atmOps = new AtmOperation();
         Scanner scanner = new Scanner(System.in);
 
         int validAtmNumber = 123456;
